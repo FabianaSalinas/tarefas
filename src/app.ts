@@ -21,7 +21,7 @@ private initMongoose(): void {
 }
 
 private connectDatabase(): void {
-  mongoose.connect('mongodb+srv://FabianaSalinas:M5vDRTZzgsmMP29T@cluster0.zqkn1sm.mongodb.net/tarefasyarn dev?retryWrites=true&w=majority', {
+  mongoose.connect('mongodb+srv://FabianaSalinas:fabiana181294@cluster0.zqkn1sm.mongodb.net/tarefas?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
